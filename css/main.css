@@ -1,0 +1,78 @@
+
+body{
+  height:3000px;
+  font-size:18px;
+  font-family: Roboto;
+}
+
+header a:link{
+  color: #fff;
+  font-weight: 600;
+}
+
+
+header{
+  position: absolute;
+  width:100%;
+}
+img{
+  max-width:100%;
+}
+.banner-txt{
+  color: #fff;
+  
+}
+.nav{
+height:70px;
+    align-content: center;
+    align-items: center;
+
+
+}
+.nav-brand{
+  margin:0 75px;
+  text-transform: uppercase;
+  font-style:normal;
+  font-size: 1.5rem;
+}
+.banner{
+  padding:7% 5% 4% 5%;
+  background-color: black;
+}
+.banner-txt{
+  border-top:#fff;
+  border-top-style: solid;
+border-top-width:8px;
+position: relative;
+}
+h1,h2, h3,h4{
+  font-style:normal;
+  font-weight: bold;
+  text-transform: capitalize;
+  
+}
+h1{
+  font-size: 6rem;
+}
+.banner h2{
+  font-size: 4rem;
+
+  font-family: shelby, sans-serif;
+  
+  font-weight: 700;
+  
+  font-style: normal;
+}
+h3{
+  font-size: 6rem;
+
+}
+.banner h4{
+  margin-top: 45px;
+  font-weight: 500;
+
+}
+
+
+
+
