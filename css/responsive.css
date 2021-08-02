@@ -1,5 +1,26 @@
-@media screen and (max-width: 1920px) {
+/*  4k screens */
+@media screen and (max-width: 2560px) {
+.wrapper{
+  padding:0% 10%;
+}
 
+}
+
+
+@media screen and (max-width: 992px) {
+
+.header-line{
+  display: none;
+}
+.social-container{
+margin-top:25px;
+margin-bottom: 50px;
+}
+#backToTop{
+  display: none;
+}
+}
+@media screen and (max-width: 1920px) {
 
 h1{
     margin-top: 10px;
@@ -17,5 +38,61 @@ h1{
   .banner h4{
     font-size: 1.3rem;
   }
+  .movie-title{
+font-size: 100%;
+  }
 
+}
+
+@media screen and (max-width: 1200px) {
+  h2{
+    font-size: 2.4rem;
+  }
+  .banner h2{
+   font-size: 4.4rem;
+  }
+  .baanner h4{
+    font-size: 1.9rem;
+
+  }
+  .movie-title{
+    font-size: 2.2rem;
+      }
+  .movie-item{
+    margin-bottom: 25px;
+  }
+  .res-day{
+    justify-content: center;
+  }
+  .day{
+    width: fit-content;
+    margin:25px 0px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .res-day .btn{
+    margin:25px 0px
+
+  }
+  .res-day .d-flex{
+    justify-content: center;
+  }
+  .line{
+    margin-top:15px;
+  }
+  .section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+}
+
+
+@media screen and (max-width: 2300px) {
+
+.row .col-intro-6{
+  width: 100% !important;}
+.intro .line{
+  margin-top:25px
+}
 }
