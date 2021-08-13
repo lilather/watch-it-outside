@@ -1,4 +1,5 @@
 node_modules/
 gulpfile.js
 .jsbeautifyrc
+js/main-es6.js
 

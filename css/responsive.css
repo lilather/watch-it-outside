@@ -1,18 +1,13 @@
 /*  4k screens */
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 2300px) {
 
-  figcaption {
-    position: static;
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin-bottom:10px;
-    margin-top:5px;
-    width:fit-content
-}
-
-}
+  .row .col-intro-6{
+    width: 100% !important;}
+  .intro .line{
+    margin-top:25px
+  }
+  }
 
 
 
@@ -37,6 +32,7 @@ margin-bottom: 50px;
   display: none;
 }
 }
+
 @media screen and (max-width: 1920px) {
 
 h1{
@@ -105,11 +101,32 @@ font-size: 100%;
 }
 
 
-@media screen and (max-width: 2300px) {
 
-.row .col-intro-6{
-  width: 100% !important;}
-.intro .line{
-  margin-top:25px
+@media screen and (max-width: 500px) {
+  h1{
+    font-size: 4rem;
+  }
+  .movie-title{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.9rem;
+  }
+  .day{
+    font-size: 1.7rem;
+  }
+  figcaption {
+    position: static;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom:10px;
+    margin-top:5px;
+    width:fit-content;
+    font-size: 0.9rem;
 }
+.wrapper{
+  padding:3%;
+}
+
 }

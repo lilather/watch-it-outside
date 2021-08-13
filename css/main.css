@@ -52,6 +52,11 @@ header .navbar-nav a:link {
     text-decoration: underline;
 }
 
+header .navbar-nav a:link:hover {
+    color: #0b5ed7;
+    text-decoration: none;
+
+}
 a:link.navbar-brand {
     color: white
 }
